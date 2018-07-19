@@ -10,7 +10,6 @@ var express         = require("express"),
     Comment         = require("./models/comment"),
     User            = require("./models/user"),
     seedDB          = require("./seeds")
-    geocoder        = require('geocoder');
 
 // requiring routes
 var commentRoutes = require("./routes/comments"),
